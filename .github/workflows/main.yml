@@ -34,7 +34,7 @@ jobs:
       uses: actions/upload-pages-artifact@v2
       with:
         name: 'github-pages'
-        path: 'dist/myPortfolio/browser/'  # Update this line to match your project name    
+        path: 'dist/myPortfolio/browser'  # Update this line to match your project name    
     # Deploy job
   deploy:
     # Add a dependency to the build job
