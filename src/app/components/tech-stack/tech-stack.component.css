@@ -1,0 +1,32 @@
+
+.tech-stack-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.tech-stack-item{
+    gap: 5px;
+    width: 100px;
+    color: #31344b;
+    box-shadow: inset 3px 3px 6px #b8b9be, inset -3px -3px 6px #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 5px;
+}
+.tech-stack-icon{
+    width: 20px;
+    height: 20px;
+}
+.tech-stack-name{
+    font-size: 12px;
+}
+.tech-stack-title{
+    display: flex;
+    flex-grow: 4;
+    font-size: 20px;
+    font-weight: bold;
+}
+

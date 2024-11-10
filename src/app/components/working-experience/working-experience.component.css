@@ -1,0 +1,11 @@
+.working-experience-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}   
+.working-experience-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}   

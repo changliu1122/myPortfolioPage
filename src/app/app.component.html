@@ -1,0 +1,37 @@
+<div>
+  <mat-toolbar>
+    <span class="spacer"></span>
+    <div class="main-page-flag">  
+      <img src="assets/icons/de.svg" alt="German flag">
+    </div>
+  </mat-toolbar>
+  <mat-grid-list cols="1" rowHeight="2:1">
+    <mat-grid-tile id="main-page-section" >
+    <app-main-page></app-main-page>
+    </mat-grid-tile>
+    <mat-grid-tile id="education-section" >
+      <app-education></app-education>
+    </mat-grid-tile>
+    <mat-grid-tile id="work-experience-section" >
+      <app-working-experience></app-working-experience>
+    </mat-grid-tile>
+    <mat-grid-tile id="project-section">
+      <app-projects></app-projects>
+    </mat-grid-tile>
+    <mat-grid-tile id="about-me-section">
+      <app-about-me></app-about-me>
+    </mat-grid-tile>
+    <mat-grid-tile id="tech-stack-section">
+      <app-tech-stack></app-tech-stack>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+  <button mat-button class="scroll-to-top" 
+  (click)="scrollToTop()" 
+  *ngIf="showScrollButton"
+  >
+    <mat-icon>arrow_upward</mat-icon>
+    <span>Back to top</span>
+  </button>
+</div>
+

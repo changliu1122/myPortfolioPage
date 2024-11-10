@@ -1,0 +1,44 @@
+
+
+.spacer{
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  background-color: #e6e7ee;
+}
+
+.mat-button {
+  background-color: #e6e7ee;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  z-index: 99;
+}
+.main-page-button{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  color: #31344b;
+  background-color: #e6e7ee;
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+  border-color: #d1d9e6;
+  border-width: 1px;
+  border-style: solid;
+  position: relative;
+  transition: all .2s ease;
+  letter-spacing: .025em;
+  margin-right:10px;
+  border-radius: 10px;
+}
+.main-page-flag {
+  height: 20px;
+  width: 20px;
+}
+
+
+
+
+

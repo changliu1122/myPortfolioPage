@@ -1,0 +1,19 @@
+<div class="main-page-container">
+    <div class="main-page-content">
+        <span class="main-page-title">Hi, I'm Chang</span>
+        
+        <span class="main-page-subtitle">I'm a software engineer</span>
+    
+        <div class="main-page-button-container">
+            <div class="main-page-button" 
+                 *ngFor="let button of navigationButtons"
+                 (click)="scrollToSection(button.section)">
+                <mat-icon class="main-page-button-icon">{{button.icon}}</mat-icon>
+            </div>
+            <div class="main-page-flag" (click)="changeLanguage('de')">  
+                <img src="assets/icons/de.svg" >
+            </div>
+        </div>
+    </div>
+</div>
+
