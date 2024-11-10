@@ -22,6 +22,7 @@ import {TechStackComponent} from "./components/tech-stack/tech-stack.component";
 export class AppComponent implements OnInit {
 
   showScrollButton = true;
+  title = 'myPortfolio';
   ngOnInit(): void {
     window.addEventListener('scroll', () => {
       this.showScrollButton = window.scrollY > 200;
