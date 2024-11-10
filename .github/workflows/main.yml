@@ -28,13 +28,13 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-
+    
     #- run: npm test
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
       with:
         name: 'github-pages'
-        path: 'dist/myPortfolio/browser'  # Update this line to match your project name    
+        path: 'dist/myPortfolio/browser/browser'  # Update this line to match your project name    
     # Deploy job
   deploy:
     # Add a dependency to the build job
