@@ -1,6 +1,50 @@
 <div class="working-experience-container">
     <div class="working-experience-title">
-        <mat-icon>work</mat-icon>
-        <span>Working Experience</span>
+        <mat-icon>apartment</mat-icon>
+        <span class="working-experience-title-text">Working Experience</span>
+    </div>
+    <div class="working-experience-content">
+        <div class="working-experience-text">
+            <mat-stepper class="education-timeline"  orientation="vertical" [linear]="false"  >
+                <ng-template matStepperIcon="edit">
+                    <mat-icon >apartment</mat-icon>
+                  </ng-template>
+                <ng-template matStepperIcon="number" >
+                    <mat-icon >apartment</mat-icon>
+                  </ng-template>
+
+                <mat-step >
+                  <ng-template matStepLabel >
+                    <div class="step-header">
+                      <h3>Master's Degree in Language of Cats</h3>
+                      <span class="year">2020 - 2022</span>
+                    </div>
+                  </ng-template>
+                  <div class="step-content">
+                    <h4>University of meowhamton, Changhai</h4>
+                    <p>Description of your studies, achievements, etc.</p>
+                  </div>
+                </mat-step>
+              
+                <mat-step >
+                  <ng-template matStepLabel>
+                    <div class="step-header">
+                      <h3>Bachelor's Degree</h3>
+                      <span class="year">2016 - 2020</span>
+                    </div>
+                  </ng-template>
+
+                
+
+                  <div class="step-content">
+                    <h4>Another University</h4>
+                    <p>Description of your studies, achievements, etc.</p>
+                  </div>
+                </mat-step>
+              </mat-stepper>
+        </div>
+        <div class="working-experience-icon-container">
+            <img class="working-experience-icon" src="assets/icons/work.png" >
+        </div>
     </div>
 </div>

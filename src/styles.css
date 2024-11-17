@@ -4,6 +4,7 @@ html, body {
     height: 100%;   
     background-color: #e6e7ee;
     color: #31344b;
+    scroll-behavior: smooth;
 }
 body { margin: 0; font-family: "Times New Roman", Times, serif;}
 button{
@@ -28,5 +29,7 @@ span{
     color: #31344b;
     
 }
+
+
 
 

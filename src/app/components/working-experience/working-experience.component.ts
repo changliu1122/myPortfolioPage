@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
+import { MatStepperModule } from '@angular/material/stepper';
 @Component({
   selector: 'app-working-experience',
   standalone: true,
-  imports: [MatIconModule],
+  imports: [MatIconModule, MatStepperModule],
   templateUrl: './working-experience.component.html',
   styleUrl: './working-experience.component.css'
 })

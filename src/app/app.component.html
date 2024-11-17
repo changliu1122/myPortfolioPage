@@ -5,26 +5,34 @@
       <img src="assets/icons/de.svg" alt="German flag">
     </div>
   </mat-toolbar>
-  <mat-grid-list cols="1" rowHeight="2:1">
-    <mat-grid-tile id="main-page-section" >
-    <app-main-page></app-main-page>
-    </mat-grid-tile>
-    <mat-grid-tile id="education-section" >
-      <app-education></app-education>
-    </mat-grid-tile>
-    <mat-grid-tile id="work-experience-section" >
-      <app-working-experience></app-working-experience>
-    </mat-grid-tile>
-    <mat-grid-tile id="project-section">
-      <app-projects></app-projects>
-    </mat-grid-tile>
-    <mat-grid-tile id="about-me-section">
-      <app-about-me></app-about-me>
-    </mat-grid-tile>
-    <mat-grid-tile id="tech-stack-section">
-      <app-tech-stack></app-tech-stack>
-    </mat-grid-tile>
-  </mat-grid-list>
+  
+<div class="sections-container">
+  <section id="main-page-section" class="full-height-section">
+      <app-main-page class="full-width"></app-main-page>
+  </section>
+  
+  <section id="education-section" class="full-height-section">
+      <app-education class="full-width"></app-education>
+  </section>
+  
+  <section id="work-experience-section" class="full-height-section">
+      <app-working-experience class="full-width"></app-working-experience>
+  </section>
+  
+  <section id="project-section" class="full-height-section">
+      <app-projects class="full-width"></app-projects>
+  </section>
+  
+  <section id="about-me-section" class="full-height-section">
+      <app-about-me class="full-width"></app-about-me>
+  </section>
+  
+  <section id="tech-stack-section" class="full-height-section">
+      <app-tech-stack class="full-width"></app-tech-stack>
+  </section>
+</div>
+
+
 
   <button mat-button class="scroll-to-top" 
   (click)="scrollToTop()" 
