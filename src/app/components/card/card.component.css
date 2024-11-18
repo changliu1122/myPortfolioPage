@@ -1,0 +1,60 @@
+.card {
+    display: flex; /* Use flexbox for layout */
+   
+    justify-content:left; 
+    flex-direction: row;
+    gap: 20px;
+    background-color: inherit; /* White background for the card */
+    padding: 10px;
+}
+
+.card-img {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the image horizontally */
+    align-items: center;
+  
+    color: #31344b;
+    background-color: #e6e7ee;
+    box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+    border-color: #d1d9e6;
+    border-width: 1px;
+    border-style: solid;
+    transition: all .2s ease;
+    
+    border-radius: 8px; /* Rounded corners */
+    width: 100px; 
+    height: 50px;
+    
+}
+
+img {
+    width: 80px; /* Set a fixed width for the image */
+    height: 40px; /* Set a fixed height for the image */
+    object-fit: contain; /* Ensure the image covers the area */
+}
+
+.card-text {
+    display: flex; 
+    flex-direction: column;
+}
+
+.card-text-title {
+    
+    margin: 0; /* Remove default margin */
+}
+
+.card-text-subtitle {
+    margin: 0;
+}
+
+.card-text-content-container {
+    
+    width: 50%; /* Make the container take the full width of the parent */
+    overflow: visible; /* Allow overflow to be visible */
+}
+
+.card-text-content {
+    
+    word-wrap: normal;
+overflow-wrap:normal; /* Ensure long words break to the next line */
+}

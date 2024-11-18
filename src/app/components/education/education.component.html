@@ -4,49 +4,25 @@
         <span class="education-title-text">Education</span>
     </div>
     <div class="education-content">
-        <div class="education-icon-container">
+        <div>
             <img class="education-icon" src="assets/icons/education.png" >
         </div>
 
         <div class="education-text">
-        
-            <mat-stepper class="education-timeline"  orientation="vertical" [linear]="false"  >
-                <ng-template matStepperIcon="edit">
-                    <mat-icon >school</mat-icon>
-                  </ng-template>
-                <ng-template matStepperIcon="number" >
-                    <mat-icon >school</mat-icon>
-                  </ng-template>
-
-                <mat-step >
-                  <ng-template matStepLabel >
-                    <div class="step-header">
-                      <h3>Master's Degree in meow</h3>
-                      <span class="year">2020 - 2022</span>
-                    </div>
-                  </ng-template>
-                  <div class="step-content">
-                    <h4>University of powhamton</h4>
-                    <p>Description of your studies, achievements, etc.</p>
-                  </div>
-                </mat-step>
-              
-                <mat-step >
-                  <ng-template matStepLabel>
-                    <div class="step-header">
-                      <h3>Bachelor's Degree</h3>
-                      <span class="year">2016 - 2020</span>
-                    </div>
-                  </ng-template>
-
-                
-
-                  <div class="step-content">
-                    <h4>Another University</h4>
-                    <p>Description of your studies, achievements, etc.</p>
-                  </div>
-                </mat-step>
-              </mat-stepper>
+          <app-card 
+          imageSrc="assets/icons/tu-darmstadt.svg" 
+          imageAlt="tu-darmstadt" 
+          title="Technische Universität Darmstadt" 
+          subtitle="2023 Dec - Now" 
+          content="orem Ipsum ">
+        </app-card>
+        <app-card 
+        imageSrc="assets/icons/strathclyde.webp" 
+        imageAlt="Biso" 
+        title="Strathclyde Business School" 
+        subtitle="2023 Dec - Now" 
+        content="orem Ipsum ">
+      </app-card>
         </div>
         
     </div>
